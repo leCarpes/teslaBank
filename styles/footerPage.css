@@ -1,0 +1,182 @@
+
+/*-----------------------------Container FooterPage-------------------------------------*/
+
+.sectionContainerFooterPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sectionContainerFooterPage>h4{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: var(--color-red);
+    text-transform: uppercase;
+}
+
+.sectionContainerFooterPage>h1{
+    font-family: "Sora", serif;
+    font-size: 36px;
+    color: var(--color-black);
+    margin-bottom: 4vh;
+}
+
+.sectionContainerFooterPage>p{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: var(--color-gray);
+}
+
+.divFooter{
+    margin-top: 8vh;
+    display: flex;
+    gap: 10px;
+}
+
+.divIconsCelFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.divTextFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divTextFooter>div>h4{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: var(--color-black);
+  
+}
+
+.divTextFooter>div>p{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: var(--color-gray);
+    line-height: 30px;
+}
+
+.divIconsArrowFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.divIconsArrowFooter>img{
+    cursor: pointer;
+}
+
+/*---------------------------------------- Footer ---------------------------------------------*/
+
+.footer{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-white);
+}
+
+.footer>div{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>div>p,span{
+    font-family: "Inter", serif;
+    color: var(--color-black);
+}
+
+.footer>div>span{
+    color: var(--color-red);
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(203,22,46,0.2) 0%, rgba(235,56,80,0.2) 95%);
+}
+
+/*--------------------------MOBILE------------------------------------------*/
+
+@media screen and (max-width: 415px) {
+
+/*-----------------------------Container FooterPage---------------------------------------------*/
+
+.sectionContainerFooterPage{
+    height: auto;
+    gap: 5px;
+}
+
+.sectionContainerFooterPage>h4{
+    font-size: 14px;
+}
+
+.sectionContainerFooterPage>h1{
+    font-size: 20px;
+
+}
+
+.sectionContainerFooterPage>p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.divFooter{
+    padding: 25px;
+    margin-top: 5vh;
+}
+
+.divIconsCelFooter{
+    display: none;
+}
+
+hr{
+    width: 80vw;
+}
+
+.divTextFooter>div>h4{
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-size: 16px;
+}
+
+.divTextFooter>div>p{
+    width: 80%;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/*-------------------------------------- Footer ---------------------------------------------*/
+
+.footer{
+    height: 18vh;
+}
+
+.footer>div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer>div>p{
+    width: 45vw;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer>div>span{
+    font-size: 12px;
+}
+
+}
+
+

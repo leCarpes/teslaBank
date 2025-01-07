@@ -1,0 +1,140 @@
+
+.sectionContainerAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionMobile{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    margin-left: 10vw;
+}
+
+.check{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    position: relative;
+    bottom: 35vh;
+    right: 25vw;
+}
+
+.mousePointer{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    position: relative;
+    right: 10vw;
+}
+
+.heart{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    position: relative;
+    top: 25vh;
+    right: 38vw;
+}
+
+.sectionAccount{
+    margin-right:5vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionAccount>h1{
+    font-family: "Sora", serif;
+    font-size: 36px;
+    color: var(--color-black);
+}
+
+.sectionAccount>h1>strong{
+    color: var(--color-red);
+}
+
+.sectionAccount>p{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: var(--color-gray);
+}
+
+.divAccount{
+    display: flex;
+}
+
+.divIcons{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.divText>div{
+    line-height: 25px;
+}
+
+.divText>div>h1{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: var(--color-black);
+}
+
+.divText>div>p{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: var(--color-gray);
+}
+
+/*--------------------------MOBILE------------------------------------------*/
+
+@media screen and (max-width: 415px) {
+
+.sectionContainerAccount{
+    margin-top: 8vh;
+    padding: 15px;
+}
+
+.sectionMobile{
+    display: none;
+}
+
+.sectionAccount>h1{
+    font-size: 20px;
+}
+
+.sectionAccount>p{
+    font-size: 14px;
+}
+
+.divIcons{
+    display: none;
+}
+
+.divText>div>h1{
+    font-size: 16px;
+    margin-top: 2vh;
+}
+
+.divText>div>p{
+    font-size: 14px;
+    margin-bottom: 2vh;
+}
+
+}

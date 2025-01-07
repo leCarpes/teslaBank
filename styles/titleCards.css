@@ -1,0 +1,151 @@
+/*------------------------------Container Title-----------------------------*/
+.sectionContainerTitle{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionTitle{
+    height: 100vh;
+    width: 50vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-lightGray);
+}
+
+.divTitle{
+    margin-left: 8vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5vh;
+}
+
+.lineTop{
+    width: 90vw;
+    position: relative;
+}
+
+.title>div>h1{
+    font-family: "Inter", serif;
+    font-size: 64px;
+    color: var(--color-red);
+}
+
+.title>p{
+    font-family: "Inter", serif;
+    font-size: 26px;
+    color: var(--color-black);
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.account{
+    width: 15vw;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 2px;
+    background: var(--color-linearRed);
+    font-family:"Inter", serif;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.apple{
+    width:25px;
+    height:25px;
+}
+
+.playStore{
+    width:20px;
+    height:20px;
+}
+
+.lineBottom{
+    width: 90vw;
+    position: relative;
+}
+
+/*------------------------------Container Cards-----------------------------*/
+
+.sectionContainerCards{
+    padding: 20px;
+    background: var(--color-linearRed);
+    width: 50vw;
+    text-align: center;
+}
+
+.cards{
+    /* border: 2px solid white; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.frontCard{
+    width: 450px;
+    height: 283px;
+    position: relative;
+    top: 24vh;
+    right: 10vw;
+}
+
+.backCard{
+    width: 445px;
+    height: 283px;
+}
+
+/*--------------------------MOBILE------------------------------------------*/
+
+@media screen and (max-width: 415px) {
+
+/*------------------------------Container Title-----------------------------*/
+
+.sectionTitle{
+    margin-top: 8vh;
+    width: 100vw;
+    height: 50vh;
+}
+
+.divTitle{
+    margin: 0;
+}
+
+.title>div>h1{
+    font-size: 30px;
+}
+
+.title>p{
+    width: 75%;
+    font-size: 16px;
+}
+
+.apple, .playStore{
+    display: none;
+}
+
+.account{
+    width: 200px;
+}
+
+/*------------------------------Container Cards-----------------------------*/
+
+.sectionContainerCards{
+    display: none;
+}
+
+}
